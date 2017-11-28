@@ -1,4 +1,3 @@
-require 'app/styles/modal/create-account-modal/school-info-panel.sass'
 NcesSearchInput = require './NcesSearchInput'
 algolia = require 'core/services/algolia'
 DISTRICT_NCES_KEYS = ['district', 'district_id', 'district_schools', 'district_students']
