@@ -81,8 +81,7 @@ module.exports = class User extends CocoModel
 
   isStudent: -> @get('role') is 'student'
 
-  isTeacher: (includePossibleTeachers=false) ->
-    return true if includePossibleTeachers and @get('role') is 'possible teacher'  # They maybe haven't created an account but we think they might be a teacher based on behavior
+  isTeacher: ->
     return @get('role') in ['teacher', 'technology coordinator', 'advisor', 'principal', 'superintendent', 'parent']
 
   isSessionless: ->
