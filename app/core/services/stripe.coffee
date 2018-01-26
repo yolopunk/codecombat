@@ -14,7 +14,7 @@ else
       key: publishableKey
       name: 'CodeCombat'
       email: me.get('email')
-      image: "https://codecombat.com/images/pages/base/logo_square_250.png"
+      image: "http://coco.movenow.cc/images/pages/base/logo_square_250.png"
       token: (token) ->
         handler.trigger 'received-token', { token }
         Backbone.Mediator.publish 'stripe:received-token', { token: token }

@@ -2,19 +2,19 @@
 
 There are many ways in which to contribute to CodeCombat, these include becoming a(n):
 
- - **[Archmage](https://codecombat.com/contribute/archmage)** (Coder)
- - **[Artisan](https://codecombat.com/contribute/artisan)** (Level Builder) 
- - **[Adventurer](https://codecombat.com/contribute/adventurer)** (Level Playtester)
- - **[Scribe](https://codecombat.com/contribute/scribe)** (Article Editor)
- - **[Diplomat](https://codecombat.com/contribute/diplomat)** (Translator)
- - **[Ambassador](https://codecombat.com/contribute/ambassador)** (Support)
+ - **[Archmage](http://coco.movenow.cc/contribute/archmage)** (Coder)
+ - **[Artisan](http://coco.movenow.cc/contribute/artisan)** (Level Builder) 
+ - **[Adventurer](http://coco.movenow.cc/contribute/adventurer)** (Level Playtester)
+ - **[Scribe](http://coco.movenow.cc/contribute/scribe)** (Article Editor)
+ - **[Diplomat](http://coco.movenow.cc/contribute/diplomat)** (Translator)
+ - **[Ambassador](http://coco.movenow.cc/contribute/ambassador)** (Support)
 
 ###The CLA
 
 If you do decide to contribute, we require you to sign a CLA (Contributor License Agreement).  You can see it:
 
-**[https://codecombat.com/cla](https://codecombat.com/cla)**
+**[http://coco.movenow.cc/cla](http://coco.movenow.cc/cla)**
 
 It just grants us a non-exclusive license to use your contribution and certifies you have the right to contribute the code you submit. For both our sakes, we need this before we can accept a pull request. Don't worry, it's super easy.
 
-For more info on the legal side of contributing to CodeCombat, see [https://codecombat.com/legal](https://codecombat.com/legal).
+For more info on the legal side of contributing to CodeCombat, see [http://coco.movenow.cc/legal](http://coco.movenow.cc/legal).

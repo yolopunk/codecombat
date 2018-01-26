@@ -11,7 +11,7 @@ In Game Development 1, students will learn how to think about games and game des
 
 
 ### Prerequisites
-- Teachers must have paid [Starter or Full Licenses](https://codecombat.com/teachers/licenses) in order to assign Game Development 1.
+- Teachers must have paid [Starter or Full Licenses](http://coco.movenow.cc/teachers/licenses) in order to assign Game Development 1.
 - All students should have completed Introduction to Computer Science.
 
 

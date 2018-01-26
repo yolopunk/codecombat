@@ -1,3 +1,3 @@
 # API
 
-[Moved](https://codecombat.com/api-docs).
+[Moved](http://coco.movenow.cc/api-docs).

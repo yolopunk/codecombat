@@ -46,7 +46,7 @@ module.exports =
       template_data:
         student_name: req.user.broadName()
         code_language: req.body.codeLanguage
-        level_link: "https://codecombat.com/play/game-dev-level/#{req.body.sessionId}"
+        level_link: "http://coco.movenow.cc/play/game-dev-level/#{req.body.sessionId}"
         level_name: req.body.levelName
     if /@codecombat.com/.test(context.recipient.address) or not _.str.trim context.recipient.address
       console.error "Somehow sent an email with bogus recipient? #{context.recipient.address}"

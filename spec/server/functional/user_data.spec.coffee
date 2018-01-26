@@ -34,9 +34,9 @@ describe 'GET /user-data', ->
       [res, body] = yield request.getAsync url,
         headers:
           'Accept-Language': 'zh-HANS=0.8; en-US=0.2'
-      expect(body).toContain "window.location = 'https://cn.codecombat.com' + window.location.pathname;"
+      expect(body).toContain "window.location = 'https://coco.movenow.cc' + window.location.pathname;"
       expect(res.statusCode).toBe(200)
 
       result = @engine.evalSync(body).toNative();
-      expect(@win.location == "https://cn.codecombat.com/scott")
+      expect(@win.location == "https://coco.movenow.cc/scott")
       

@@ -168,7 +168,7 @@ module.exports = class MainAdminView extends RootView
     options.success = (model, response, options) =>
       # TODO: Don't hardcode domain.
       if application.isProduction()
-        @freeSubLink = "https://codecombat.com/account/subscription?_ppc=#{model.code}"
+        @freeSubLink = "http://coco.movenow.cc/account/subscription?_ppc=#{model.code}"
       else
         @freeSubLink = "http://localhost:3000/account/subscription?_ppc=#{model.code}"
       @render?()
@@ -191,7 +191,7 @@ module.exports = class MainAdminView extends RootView
     options.success = (model, response, options) =>
       # TODO: Don't hardcode domain.
       if application.isProduction()
-        @freeSubLink = "https://codecombat.com/account/prepaid?_ppc=#{model.code}"
+        @freeSubLink = "http://coco.movenow.cc/account/prepaid?_ppc=#{model.code}"
       else
         @freeSubLink = "http://localhost:3000/account/prepaid?_ppc=#{model.code}"
       @render?()

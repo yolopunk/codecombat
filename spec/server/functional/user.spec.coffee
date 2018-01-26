@@ -920,7 +920,7 @@ describe 'POST /db/user/:handle/signup-with-password', ->
     expect(updatedUser.get('passwordHash')).toBeDefined()
     expect(sendwithus.api.send).toHaveBeenCalled()
     context = sendwithus.api.send.calls.argsFor(0)[0]
-    expect(_.str.startsWith(context.email_data.verify_link, "https://codecombat.com/user/#{user.id}/verify/")).toBe(true)
+    expect(_.str.startsWith(context.email_data.verify_link, "http://coco.movenow.cc/user/#{user.id}/verify/")).toBe(true)
     
 
   it 'signs up the user with just a name and password', utils.wrap ->

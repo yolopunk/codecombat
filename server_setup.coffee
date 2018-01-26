@@ -173,7 +173,7 @@ setupCountryTaggingMiddleware = (app) ->
       req.country = countryInfo.country
     next()
 
-setupCountryRedirectMiddleware = (app, country='china', host='cn.codecombat.com') ->
+setupCountryRedirectMiddleware = (app, country='china', host='coco.movenow.cc') ->
   hosts = host.split /;/g
   shouldRedirectToCountryServer = (req) ->
     reqHost = (req.hostname ? req.host ? '').toLowerCase()  # Work around express 3.0

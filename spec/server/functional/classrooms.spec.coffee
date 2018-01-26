@@ -543,7 +543,7 @@ describe 'POST /db/classroom/:id/invite-members', ->
       expect(context.email_id).toBe(sendwithus.templates.course_invite_email)
       expect(context.recipient.address).toBe('test@test.com')
       expect(context.email_data.teacher_name).toBe('Mr Professerson')
-      expect(context.email_data.join_link).toBe('https://codecombat.com/students?_cc='+classroom.get('codeCamel'))
+      expect(context.email_data.join_link).toBe('http://coco.movenow.cc/students?_cc='+classroom.get('codeCamel'))
       done()
     [res, body] = yield request.postAsync { uri: url, json: data, headers: {host: 'codecombat.com'} }
     expect(res.statusCode).toBe(200)

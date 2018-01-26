@@ -72,7 +72,7 @@ That’s it! Students can now use their login credentials to start playing CodeC
 ### Option 2: Students Join via a Class Code
 *Easiest option if you students don’t have email addresses*
 
-Direct your students to [CodeCombat](https://codecombat.com) and have them click “Create Account” on the top navigation bar. Students should select the green "Sign up as a Student" button.
+Direct your students to [CodeCombat](http://coco.movenow.cc) and have them click “Create Account” on the top navigation bar. Students should select the green "Sign up as a Student" button.
 
 <img src="http://files.codecombat.com/docs/getting-started/student-account.png" title="Create a Student Account" alt="create-student-account" width="400px"/>
 _Make sure your students click “Sign up as a Student” when prompted._

@@ -5,7 +5,7 @@
 
 var num = 10;
 var message = "Thanks for filling out the form.  You can follow this link to enable your free subscription for teachers.  If you have any questions or comments, please let me know.";
-var urlPrefix = "https://codecombat.com/account/subscription?_ppc=";
+var urlPrefix = "http://coco.movenow.cc/account/subscription?_ppc=";
 var creatorID = "52f94443fcb334581466a992";
 
 for (var i = 0; i < num; i++) {

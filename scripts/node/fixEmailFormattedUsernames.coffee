@@ -38,7 +38,7 @@ changedUsernameTemplate = _.template("
 </ul>
 
 <p>
-  Please <a href='https://codecombat.com/account/settings'>visit the site</a> if you would like to update your settings.
+  Please <a href='http://coco.movenow.cc/account/settings'>visit the site</a> if you would like to update your settings.
   And let us know if you have any questions!
 </p>
 ")

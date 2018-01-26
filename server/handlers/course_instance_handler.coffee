@@ -152,7 +152,7 @@ CourseInstanceHandler = class CourseInstanceHandler extends Handler
               email_data:
                 teacher_name: req.user.broadName()
                 class_name: course.get('name')
-                join_link: "https://codecombat.com/courses/students?_ppc=" + prepaid.get('code')
+                join_link: "http://coco.movenow.cc/courses/students?_ppc=" + prepaid.get('code')
             sendwithus.api.send context, _.noop
           return @sendSuccess(res, {})
 
