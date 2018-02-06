@@ -24,6 +24,7 @@ var goalStates;
 var createFailed;
 
 var allowedOrigins = [
+    /^https?:\/\/(.*\.)?movenow\.cc$/,
     /^https?:\/\/(.*\.)?codecombat\.com$/,
     /^https?:\/\/localhost:[\d]+$/, // For local development
     /^https?:\/\/10.0.2.2:[\d]+$/, // For local virtual machines
